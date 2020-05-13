@@ -53,7 +53,7 @@ const restart = () => {
 const lap = () => {
   if (timer) {
     laps.style.display = 'block'
-    li = document.createElement('li')
+    const li = document.createElement('li')
     li.textContent = stopWatch.textContent
     list.appendChild(li)
   }
