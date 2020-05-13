@@ -15,9 +15,9 @@ const start = () => {
 }
 
 const increment = () => {
-  tenthsValue = parseInt(tenths.textContent)
-  secondsValue = parseInt(seconds.textContent)
-  minutesValue = parseInt(minutes.textContent)
+  let tenthsValue = parseInt(tenths.textContent)
+  let secondsValue = parseInt(seconds.textContent)
+  let minutesValue = parseInt(minutes.textContent)
 
   tenthsValue += 1
   tenths.textContent = String(tenthsValue)
